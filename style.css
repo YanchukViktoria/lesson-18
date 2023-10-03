@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(31, 92, 31);
+}
+
+.bg-box{
+
+    width: 596px;
+    height: 380px;
+
+    background-image:  url("./img/house.jpg"), url("./img/bulb.png"), url("./img/donat.png"), url("./img/grass.png"), url("./img/йож.webp");
+    
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+    background-position: center, top left, top right, left bottom, top left;
+    background-size: 300px, 20px, 8%, 20%, 10%;
+
+}
